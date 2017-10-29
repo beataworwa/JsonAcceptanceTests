@@ -1,2 +1,1 @@
-# PostmanCollection
-Postman collection for testing endpoint posts and comments
+Json Tests with RestTemplate
