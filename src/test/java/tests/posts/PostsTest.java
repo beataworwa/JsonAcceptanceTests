@@ -73,7 +73,7 @@ public class PostsTest {
 
     @Test
     public void getCommentsForPost() {
-        long postId=1L;
+        long postId = 1L;
         String url = "https://jsonplaceholder.typicode.com/posts/{id}/comments";
         Comment[] resultPost = restTemplate.getForObject(url, Comment[].class, postId);
         assertThat(resultPost.length).isEqualTo(5);
@@ -84,7 +84,6 @@ public class PostsTest {
         assertThat(resultPost[4].getEmail()).isEqualTo("Hayden@althea.biz");
 
     }
-
 
     @Test
     public void deletePost() {
