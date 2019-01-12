@@ -76,7 +76,7 @@ public class PostsTest {
         long postId = 1L;
         String url = "https://jsonplaceholder.typicode.com/posts/{id}/comments";
         Comment[] resultPost = restTemplate.getForObject(url, Comment[].class, postId);
-        assertThat(resultPost.length).isEqualTo(5);
+        assertThat(resultPost.length).isEqualTo(500);
         assertThat(resultPost[0].getEmail()).isEqualTo("Eliseo@gardner.biz");
         assertThat(resultPost[1].getEmail()).isEqualTo("Jayne_Kuhic@sydney.com");
         assertThat(resultPost[2].getEmail()).isEqualTo("Nikita@garfield.biz");
