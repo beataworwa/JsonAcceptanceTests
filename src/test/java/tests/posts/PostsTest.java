@@ -3,7 +3,7 @@ package tests.posts;
 import model.Comment;
 import model.Post;
 import model.PostBuilder;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
 

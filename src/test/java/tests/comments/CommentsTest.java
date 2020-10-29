@@ -1,7 +1,7 @@
 package tests.comments;
 
 import model.Comment;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.web.client.RestTemplate;
 
 import static org.assertj.core.api.Assertions.assertThat;
